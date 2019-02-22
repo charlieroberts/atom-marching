@@ -1,6 +1,6 @@
 {
   "atom-workspace atom-text-editor[data-grammar~='js']": {
-    "ctrl-alt-o": "atom-marching:toggle",
+    "ctrl-alt-m": "atom-marching:toggle",
     "ctrl-enter": "atom-marching:evalLine",
     "alt-enter" : "atom-marching:evalBlock",
     "ctrl-." : "atom-marching:clear"
