@@ -1,13 +1,15 @@
 ### Marching.js in Atom
+[Marching.js](https://charlieroberts.github.io/marching) is a JavaScript library for compiling raymarchers that run on the GPU and experimenting with volumetric rendering / constructive solid geometry. This plugin enables it to run in Atom; no browser required.
 
 ### Running Atom-Marching
-1. restart atom
-2. packages > atom-marching > toggle or use the keyboard shortcut `ctrl+alt+m`
-3. create a file ending with .js in atom
-4. type `march( Sphere() ).render()`
-5. `ctrl+enter` to run selected code
-6. `alt+enter` to run a block of code
-7. `ctrl+.` to clear a scene
+0. Install the `atom-marching` package from Atom
+1. Restart atom or hit `ctrl+alt+command+l` to reload all packages.
+2. To start `marching.js`, select packages > atom-marching > toggle or use the keyboard shortcut `ctrl+alt+m`
+3. Create a file with a .js extension in Atom
+4. Type `march( Sphere() ).render()` in your new file to test
+5. Select your code, then use `ctrl+enter` to run it
+6. Use `alt+enter` to run a block of code, delimited by blank lines
+7. `ctrl+.` will clear the current scene
 
 ### Error: webgl not supported
 Try running atom from the command line as follows:
