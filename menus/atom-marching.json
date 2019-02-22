@@ -1,0 +1,38 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-marching",
+        "command": "atom-marching:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-marching",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-marching:toggle"
+            },
+            {
+              "label": "Run Selection",
+              "command": "atom-marching:evalLine"
+            },
+            {
+              "label": "Run Block",
+              "command" : "atom-marching:evalBlock"
+            },
+            {
+              "label": "Clear",
+              "command" : "atom-marching:clear"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

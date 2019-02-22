@@ -1,0 +1,23 @@
+{
+  "name": "atom-marching",
+  "main": "./lib/atom-marching",
+  "version": "0.2.10",
+  "description": "live coding ray marchers from atom",
+  "keywords": [
+    "csg",
+    "glsl",
+    "live coding"
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-marching:toggle"
+  },
+  "repository": "https://github.com/charlieroberts/atom-marching",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-message-panel": "^1.3.0",
+    "marching": "^0.3.0"
+  }
+}
