@@ -1,7 +1,7 @@
 {
   "name": "atom-marching",
   "main": "./lib/atom-marching",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "live coding ray marchers from atom",
   "keywords": [
     "csg",
