@@ -29,6 +29,10 @@
             {
               "label": "Clear",
               "command" : "atom-marching:clear"
+            },
+            {
+              "label": "Show Documentation",
+              "command" : "atom-marching:showDocs"
             }
           ]
         }

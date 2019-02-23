@@ -3,6 +3,7 @@
     "ctrl-alt-m": "atom-marching:toggle",
     "ctrl-enter": "atom-marching:evalLine",
     "alt-enter" : "atom-marching:evalBlock",
-    "ctrl-." : "atom-marching:clear"
+    "ctrl-." : "atom-marching:clear",
+    "ctrl-shift-alt-d" : "atom-marching:showDocs"
   }
 }
