@@ -10,6 +10,7 @@
 5. Select your code, then use `ctrl+enter` to run it
 6. Use `alt+enter` to run a block of code, delimited by blank lines
 7. `ctrl+.` will clear the current scene
+8. For examples, tutorials, and documentation, see [the online marching.js playground](https://charlieroberts.github.io/marching/playground/) (Chrome / Firefox).
 
 ### Error: webgl not supported
 Try running atom from the command line as follows:
