@@ -17,11 +17,9 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-message-panel": "^1.3.0",
-    "marching": "file:./node_modules/marching/dist/index.js",
-    "@bandaloo/merge-pass":"^0.6.4"
+    "atom-message-panel": "^1.3.0"
   },
   "scripts": {
-    "preinstall": "npm i marching@latest"
+    "preinstall": "npm i marching@latest; cp ./node_modules/marching/dist/index.js ./node_modules/marching/js/index.js"
   }
 }
